@@ -1,4 +1,4 @@
-# Day 1: Create SSH Key Pair for Azure Virtual Machine
+# Day 01: Create SSH Key Pair for Azure Virtual Machine
 
 For this task, create an SSH key pair with the following requirements:
 
