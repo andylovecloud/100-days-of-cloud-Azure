@@ -1,4 +1,4 @@
-# Day 3: Create VM using Azure CLI
+# Day 03: Create VM using Azure CLI
 
 The Nautilus DevOps team is in the process of migrating some of their workloads to Azure. One of the tasks involves creating a new Virtual Machine (VM) using the Azure CLI. The team does not have access to the Azure portal but can manage Azure resources via the azure-client host (the landing host for this lab).
 
@@ -15,18 +15,20 @@ Step 1 — Check existing Resource Groups
 
 ```
 az group list -o table
+or
+az group list --query "[].name" --output tsv
 ```
 
 Step 1 — Create the Virtual Machine
 
 ```
 az vm create \
-  --resource-group devops-rg \  # Resource group must be changed based on step 1 result
-  --name devops-vm \
+  --name datacenter-vm \
+  --resource-group <PASTE_YOUR_RESOURCE_GROUP_NAME_HERE> \
   --image Ubuntu2204 \
   --size Standard_B2s \
   --admin-username azureuser \
   --generate-ssh-keys \
-  --storage-sku Standard_LRS \
-  --os-disk-size-gb 30
+  --os-disk-size-gb 30 \
+  --storage-sku Standard_LRS
 ```
