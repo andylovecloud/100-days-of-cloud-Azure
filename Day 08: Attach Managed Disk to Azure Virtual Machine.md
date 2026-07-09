@@ -1,4 +1,4 @@
-# Day 8: Attach Managed Disk to Azure Virtual Machine
+# Day 08: Attach Managed Disk to Azure Virtual Machine
 
 An existing VM named `nautilus-vm` and a managed disk named `nautilus-disk` already exist in the `East US` region.
 
