@@ -1,4 +1,4 @@
-# Day 5: Create a Virtual Network (IPv4) in Azure
+# Day 05: Create a Virtual Network (IPv4) in Azure
 
 Create a **`Virtual Network`** (VNet) named **`nautilus-vnet`** in the **`East US`** region with **`192.168.0.0/24`** IPv4 CIDR.
 
