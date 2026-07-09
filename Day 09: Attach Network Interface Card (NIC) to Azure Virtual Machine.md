@@ -1,4 +1,4 @@
-# Day 9: Attach Network Interface Card (NIC) to Azure Virtual Machine
+# Day 09: Attach Network Interface Card (NIC) to Azure Virtual Machine
 
 - An existing VM named **`nautilus-vm`** and a network interface named **`nautilus-nic`** already exist in the **`West US`** region.
 - Attach the network interface **`nautilus-nic`** to the VM **`nautilus-vm`**.
