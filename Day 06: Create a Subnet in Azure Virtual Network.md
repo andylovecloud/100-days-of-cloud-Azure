@@ -1,4 +1,4 @@
-# Day 6: Create a Subnet in Azure Virtual Network
+# Day 06: Create a Subnet in Azure Virtual Network
 
 For this task, create a Virtual Network (VNet) named `datacenter-vnet` and one subnet named `datacenter-subnet` within the VNet in the `East US` region. Make sure the IPv4 address range is `10.0.0.0/16`.
 
