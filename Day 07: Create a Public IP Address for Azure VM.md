@@ -1,4 +1,4 @@
-# Day 7: Create a Public IP Address for Azure VM
+# Day 07: Create a Public IP Address for Azure VM
 
 For this task, allocate a `Public IP` address, name it as `datacenter-pip`.
 
